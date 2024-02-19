@@ -2,9 +2,11 @@ import HeaderComponents from '/Users/josuesalazaku/Developer/BeCode/Summerpastur
 
 function App() {
   return (
-    <div className="App">
+    <div className="App h-screen bg-slate-900">
         <HeaderComponents/>
-        <h1 className='text-6xl'> Hello world</h1>
+      <main>
+      <h1 className='text-6xl'> Hello world</h1>
+       </main>
 
     </div>
   );
